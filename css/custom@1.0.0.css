@@ -1,4 +1,4 @@
-/* 1.一图流 */
+/* 1.一图流 主页封面和页脚透明，只显示主页背景图*/
 /* 页脚与头图透明 */
 #footer {
     background: transparent !important;
@@ -26,14 +26,17 @@
     background: transparent !important;
 }
 
+
+
+
 /* 2. 页面样式调节 */
 /* 调节各个页面透明度、模糊度（亚克力效果）、圆角、边框样式等，看起来会更加舒适。 */
 
 :root {
     --trans-light: rgba(255, 255, 255, 0.88); /* 1不透明 白天模式带透明度的背景色*/
     --trans-dark: rgba(25, 25, 25, 0.88);
-    --border-style: 1px solid rgb(89, 89, 80); /*边框*/
-    --backdrop-filter: blur(5px) saturate(150%);
+    --border-style: 1px solid rgb(169, 169, 169); /*边框*/
+    --backdrop-filter: blur(8px) saturate(150%) contrast(50%);
 }
 
 /* 首页文章卡片 */
@@ -113,21 +116,20 @@ div#archive {
 
 
 
-/* 3. 翻页按钮居中 */
+/* 3. 双栏显示文章时 翻页按钮居中 */
 #pagination {
     width: 100%;
     margin: auto;
 }
 
 /* 4. 标题发光效果 */
-
 /* 夜间模式菜单栏发光字 */
 [data-theme="dark"] #nav .site-page,
 [data-theme="dark"] #nav .menus_items .menus_item .menus_item_child li a {
-    text-shadow: 0 0 2px rgb(255, 229, 93) !important;
+    text-shadow: 0 0 2px rgb(146, 142, 56) !important;
 }
 
 /* 手机端适配 */
 [data-theme="dark"] #sidebar #sidebar-menus .menus_items .site-page {
-    text-shadow: 0 0 2px rgb(255, 229, 93) !important;
+    text-shadow: 0 0 2px rgb(146, 142, 56) !important;
 }
