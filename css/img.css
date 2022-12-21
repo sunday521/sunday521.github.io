@@ -1,0 +1,18 @@
+/* 图片下的说明文字居中 */
+.jg-caption {
+    text-align: center !important;
+}
+
+/* 给每个图片下增加个小图标 */
+.jg-caption-visible::before {
+    content: "🥝 ";
+}
+
+.fancybox-caption__body::before {
+    content: "🥝 ";
+}
+
+.img-alt.is-center::before {
+    content: "🥝 ";
+    /* 决定图标 */
+}
