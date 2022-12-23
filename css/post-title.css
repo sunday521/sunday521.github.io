@@ -80,45 +80,45 @@ h6::before {
 
 /* H1-H6不同标题图标颜色 */
 #content-inner.layout h1::before {
-    color: #ef50a8;
+    color: #8000FF;
     margin-left: -2.4rem;
-    font-size: 2.0rem;
+    font-size: 1.85rem;
     margin-top: -0.4rem;
 }
 
 #content-inner.layout h2::before {
-    color: #fb7061;
-    margin-left: -2.1rem;
-    font-size: 1.8rem;
-    margin-top: -0.5rem;
+    color: #0078D7;
+    margin-left: -2.25rem;
+    font-size: 1.84rem;
+    margin-top: -0.35rem;
 }
 
 #content-inner.layout h3::before {
-    color: #ffbf00;
-    margin-left: -1.8rem;
-    font-size: 1.6rem;
-    margin-top: -0.18rem;
+    color: #fb7061;
+    margin-left: -2.1rem;
+    font-size: 1.83rem;
+    margin-top: -0.3rem;
 }
 
 #content-inner.layout h4::before {
-    color: #a9e000;
-    margin-left: -1.7rem;
-    font-size: 1.5rem;
-    margin-top: -0.18rem;
+    color: #5ec1e0;
+    margin-left: -2.0rem;
+    font-size: 1.825rem;
+    margin-top: -0.3rem;
 }
 
 #content-inner.layout h5::before {
-    color: #57c850;
+    color: #d5a413;
     margin-left: -1.6rem;
-    font-size: 1.4rem;
+    font-size: 1.65rem;
     margin-top: -0.2rem;
 }
 
 #content-inner.layout h6::before {
-    color: #5ec1e0;
-    margin-left: -1.1rem;
-    font-size: 0.9rem;
-    margin-top: 0.0rem;
+    color: #a9e000;
+    margin-left: -1.5rem;
+    font-size: 1.6rem;
+    margin-top: 0.2rem;
 }
 
 
