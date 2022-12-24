@@ -87,7 +87,7 @@ h6::before {
 }
 
 #content-inner.layout h2::before {
-    color: #0078D7;
+    color: #fb7061;
     margin-left: -2.25rem;
     font-size: 1.84rem;
     margin-top: -0.35rem;
@@ -101,7 +101,7 @@ h6::before {
 }
 
 #content-inner.layout h4::before {
-    color: #5ec1e0;
+    color: #0078D7;
     margin-left: -2.0rem;
     font-size: 1.825rem;
     margin-top: -0.3rem;

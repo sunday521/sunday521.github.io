@@ -1,9 +1,9 @@
 /* 修改文章目录的宽度和字体大小 */
 #aside-content .toc-content {
     font-size: 15px;
-    width: 330px;
+    width: 300px;
 }
 
 #card-toc {
-    width: 350px;
+    width: 300px;
 }
