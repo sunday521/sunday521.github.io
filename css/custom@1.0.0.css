@@ -177,6 +177,34 @@ div#archive {
 }
 
 :root {
-    --lyx-theme: #49B1F5
-        /*我的主题色 蓝色房子*/
+    --lyx-theme: #00c4b6
+        /*我的主题色 青色房子*/
 }
+
+/* 4. 右下设置等按钮 */
+#rightside div button{
+    /* background-color: rgb(57, 197,187); */
+    /* opacity: 0.3; 1不透明 */
+    border-radius: 20px;
+}
+
+/* 5. 手机端文章卡片宽度、高度、左外边距 */
+/* @media screen and (max-width: 900px){
+    .layout div:first-child {
+        width: 75% !important;
+        margin-left: 78px;
+    }
+}
+
+
+
+@media screen and (max-width: 768px){
+    #recent-posts .recent-post-item {
+        height: 320px;
+    } 
+}
+@media screen and (max-width: 900px){
+    #post {
+        width: 100% !important;
+    }
+} */
