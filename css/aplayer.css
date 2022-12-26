@@ -9,3 +9,39 @@
     left: 0 !important;
     /* 鼠标悬停是左侧缩进归零，完全显示按钮 */
 }
+
+.aplayer.aplayer-fixed.aplayer-narrow {
+    opacity: 0.5;
+}
+.aplayer.aplayer-fixed.aplayer-narrow:hover {
+    opacity: 1;
+}
+.aplayer.aplayer-fixed.aplayer-narrow .aplayer-lrc {
+    text-shadow: 2px 2px 5px #00f6ff;  /* 歌词文字阴影 太美了 */
+    opacity: 1;
+}
+
+
+
+/* 垂直方向向上移动居中，必须添加.aplayer-narrow才能移动（覆盖掉原有属性）！ */
+/* .aplayer.aplayer-fixed.aplayer-narrow {
+    bottom: 441px;
+    opacity: 0.5;
+}
+
+.aplayer.aplayer-fixed.aplayer-narrow:hover {
+    opacity: 1;
+}
+
+
+.aplayer.aplayer-fixed.aplayer-narrow .aplayer-body {
+    bottom: 441px; 
+}
+
+.aplayer.aplayer-fixed.aplayer-narrow .aplayer-lrc {
+    bottom: 455px;
+    width: max-content;
+    margin-left: 7px;
+    text-shadow: 2px 2px 5px #00f6ff;  歌词文字阴影
+    opacity: 1;
+} */
