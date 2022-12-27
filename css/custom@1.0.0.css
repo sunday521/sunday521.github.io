@@ -50,16 +50,23 @@
 @media screen and (max-width: 768px){    
     #recent-posts>.recent-post-item {
         width: 83% !important;
+        height: 170px;
         margin-left: auto;
         margin-right: auto;
+  
+    }
+
+    #recent-posts>.recent-post-item .post_cover {
+        display: none;
     }
 }
 
 @media screen and (max-width: 600px){
     .blog-slider {
-        left: -40px;
+        display: none;
     }
 }
+
 
 
 
