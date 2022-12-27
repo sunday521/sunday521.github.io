@@ -47,6 +47,23 @@
     border: var(--border-style);
 }
 
+@media screen and (max-width: 768px){    
+    #recent-posts>.recent-post-item {
+        width: 83% !important;
+        margin-left: auto;
+        margin-right: auto;
+    }
+}
+
+@media screen and (max-width: 600px){
+    .blog-slider {
+        left: -40px;
+    }
+}
+
+
+
+
 /* 首页侧栏卡片 */
 #aside-content .card-widget {
     background: var(--trans-light);
@@ -186,7 +203,7 @@ div#archive {
 #rightside>div>button,#rightside>div>a {
     /* background-color: rgb(57, 197,187); */
     /* opacity: 0.3; 1不透明 */
-    border-radius: 20px;
+    border-radius: 20px ;
 }
 
 /* 5. 手机端文章卡片宽度、高度、左外边距 */
