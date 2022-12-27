@@ -179,13 +179,23 @@ $('#menu-home').on('click', function () { window.location.href = window.location
 //     removeRightMenu();
 //     translateInitialization();
 // });
+
 $(".menu-link").on("click", function () {
     removeRightMenu()
 });
 $("#menu-print").on("click", function () {
     removeRightMenu();
     window.print();
-    });
+});
+$("#menu-radompage").on("mouseover", function () {
+    a_randompage = document.querySelector('#menu-radompage');
+    a_randompage.href = '/random.html';
+    console.dir(a_randompage);
+
+});
+$("#menu-radompage").on("click", function () {
+    removeRightMenu();
+});
 $("#rightmenu-mask").on("click", function () { removeRightMenu() });
 $("#rightmenu-mask").contextmenu(function () {
     removeRightMenu();

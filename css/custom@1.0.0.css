@@ -180,9 +180,10 @@ div#archive {
     --lyx-theme: #00c4b6
         /*我的主题色 青色房子*/
 }
-
+/* #rightside div buttona { */
 /* 4. 右下设置等按钮 */
-#rightside div button{
+
+#rightside>div>button,#rightside>div>a {
     /* background-color: rgb(57, 197,187); */
     /* opacity: 0.3; 1不透明 */
     border-radius: 20px;
