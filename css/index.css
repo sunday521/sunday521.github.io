@@ -1377,7 +1377,7 @@ body {
   background: var(--global-bg);
   color: var(--font-color);
   font-size: var(--global-font-size);
-  font-family: YSHST , HYTMR, "Microsoft YaHei" , -apple-system, BlinkMacSystemFont, "Segoe UI" , "Helvetica Neue" , Lato, Roboto, "PingFang SC" , "Microsoft JhengHei" , sans-serif;
+  font-family: TTQHB, ZZAW2 , YSHST , HYTMR,  "Microsoft YaHei" , HYTMR , -apple-system, BlinkMacSystemFont, "Segoe UI" , "Helvetica Neue" , Lato, Roboto, "PingFang SC" , "Microsoft JhengHei" , sans-serif;
   line-height: 2;
   -webkit-tap-highlight-color: rgba(0,0,0,0);
 }
@@ -1403,7 +1403,7 @@ input::placeholder {
   z-index: -999;
   width: 100%;
   height: 100%;
-  background: url(https://mysource-hexo.wyun521.top/img/banner/banner03.jpg);
+  background: url(https://mysource-hexo.wyun521.top/img/banner/bg02.jpg);
   background-attachment: local;
   background-position: center;
   background-size: cover;

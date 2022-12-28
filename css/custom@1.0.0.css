@@ -1,11 +1,13 @@
 /* 1.一图流 主页封面和页脚透明，只显示主页背景图*/
 /* 页脚与头图透明 */
+/* 在css中 transparent到底是什么意思呢? transparent 它代表着全透明黑色，即一个类似rgba(0, 0, 0, 0)这样的值。 */
 #footer {
-    background: transparent !important;
+    /*background: transparent !important;  全透明黑色*/
+    background: #00000050 !important;   /*半透明黑色，效果非常棒*/
 }
 
 #page-header {
-    background: transparent !important;
+    background: #00000050 !important;
 }
 
 /* 白天模式遮罩透明 */
@@ -40,10 +42,11 @@
 }
 
 /* 首页文章卡片 */
+/* 1.边框圆角太圆不高级 */
 #recent-posts>.recent-post-item {
     background: var(--trans-light);
     backdrop-filter: var(--backdrop-filter);
-    border-radius: 25px;
+    border-radius: 8px;
     border: var(--border-style);
 }
 
@@ -67,15 +70,11 @@
     }
 }
 
-
-
-
-
 /* 首页侧栏卡片 */
 #aside-content .card-widget {
     background: var(--trans-light);
     backdrop-filter: var(--backdrop-filter);
-    border-radius: 18px;
+    border-radius: 8px;
     border: var(--border-style);
 }
 
@@ -201,53 +200,42 @@ div#archive {
 }
 
 :root {
-    --lyx-theme: #00c4b6
-        /*我的主题色 青色房子*/
+    --lyx-theme: #00c4b6   /*我的主题色 青色房子*/
 }
 /* #rightside div buttona { */
 /* 4. 右下设置等按钮 */
-
 #rightside>div>button,#rightside>div>a {
     /* background-color: rgb(57, 197,187); */
     /* opacity: 0.3; 1不透明 */
     border-radius: 20px ;
 }
 
-/* 5. 手机端文章卡片宽度、高度、左外边距 */
-/* @media screen and (max-width: 900px){
-    .layout div:first-child {
-        width: 75% !important;
-        margin-left: 78px;
-    }
-}
-
-
-
-@media screen and (max-width: 768px){
-    #recent-posts .recent-post-item {
-        height: 320px;
-    } 
-}
-@media screen and (max-width: 900px){
-    #post {
-        width: 100% !important;
-    }
-} */
-
-
-
-[data-theme="dark"] #aside-content .card-archives ul.card-archive-list>.card-archive-list-item a:hover,
+/* 侧边栏分类和归档 */
+#aside-content .card-archives ul.card-archive-list>.card-archive-list-item a:hover,
 #aside-content .card-categories ul.card-category-list>.card-category-list-item a:hover {
     color: #ffffff;
-    background-color: #FF7242;
+    background-color: #00c4b6 !important;
+    border-radius: 8px;
+    padding-left: .5rem;
+    padding-right: 1.5rem;
+
+}
+[data-theme="dark"] #aside-content .card-archives ul.card-archive-list>.card-archive-list-item a:hover,
+[data-theme="dark"] #aside-content .card-categories ul.card-category-list>.card-category-list-item a:hover {
+    color: #ffffff;
+    background-color: #FF7242 !important;
     border-radius: 8px;
     padding-left: .5rem;
     padding-right: 1.5rem;
 }
 
+
+/* 侧边栏标签云 */
 #aside-content .card-tag-cloud a:hover {
     background-color: #00c4b6 !important;
     color: #ffffff !important;
+    border: none !important;
+    border-radius: 8px;
 }
 
 [data-theme="dark"] #aside-content .card-tag-cloud a:hover {
@@ -255,10 +243,27 @@ div#archive {
     color: #ffffff !important;
 }
 
+
+
+/* 文章标题hover */
+#recent-posts>.recent-post-item>.recent-post-info>.article-title:hover {
+    border-bottom: 2px solid #00c4b6;
+}
 [data-theme="dark"] #recent-posts>.recent-post-item>.recent-post-info>.article-title {
     color: red !important;
 }
-
 [data-theme="dark"] #recent-posts>.recent-post-item>.recent-post-info>.article-title:hover {
-    border-bottom: 1px solid red;
+    border-bottom: 2px solid red;
 }
+
+/* 文章卡片和侧边栏hover边框 */
+#aside-content .card-widget:hover,
+#recent-posts>.recent-post-item:hover {
+    border: 2px solid #121212;
+}
+[data-theme="dark"] #aside-content .card-widget:hover,
+[data-theme="dark"] #recent-posts>.recent-post-item:hover {
+    border: 2px solid red;
+}
+
+

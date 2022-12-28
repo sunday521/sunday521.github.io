@@ -1,0 +1,12 @@
+#article-container .flink .flink-list>.flink-list-item {
+    border: 1px solid rgb(128 128 128 / 21%);
+    background-color: #fff;
+}
+
+#article-container .flink .flink-list>.flink-list-item a {
+    color: #343434;
+}
+
+#article-container .flink .flink-list>.flink-list-item a:hover {
+    color: #fff;
+}
