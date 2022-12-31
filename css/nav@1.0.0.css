@@ -3,6 +3,7 @@
     position: absolute !important;
     width: fit-content !important;
     left: 50% !important;
+    top: 10px !important;
     transform: translateX(-50%) !important;
 }
 
@@ -13,10 +14,20 @@
 
 /* 这里的2是代表导航栏的第2个元素，即有子菜单的元素，可以按自己需求修改 */
 .menus_items .menus_item:nth-child(2) .menus_item_child {
-    left: -38px;
+    left: -130px;
 }
 
 .menus_items .menus_item:nth-child(3) .menus_item_child {
-    left: -38px;
+    left: -45px;
 }
 
+
+/* @media screen and (max-width: 768px) {
+    #nav .menus_items {
+        display: none;
+    }
+} */
+
+#page-header.nav-fixed #nav {
+    background: linear-gradient(60deg, #ffd7e4 0, #c8f1ff 93%);
+}

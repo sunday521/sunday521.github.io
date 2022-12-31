@@ -47,11 +47,12 @@
     background: var(--trans-light);
     backdrop-filter: var(--backdrop-filter);
     border-radius: 8px;
-    border: var(--border-style);
+    /* border: var(--border-style); */
 }
 
 @media screen and (max-width: 768px){    
     #recent-posts>.recent-post-item {
+        /* 不要占满手机屏幕 */
         width: 83% !important;
         height: 170px;
         margin-left: auto;
@@ -59,9 +60,9 @@
   
     }
 
-    #recent-posts>.recent-post-item .post_cover {
+    /* #recent-posts>.recent-post-item .post_cover {
         display: none;
-    }
+    } */
 }
 
 @media screen and (max-width: 600px){
@@ -75,7 +76,7 @@
     background: var(--trans-light);
     backdrop-filter: var(--backdrop-filter);
     border-radius: 8px;
-    border: var(--border-style);
+    /* border: var(--border-style); */
 }
 
 /* 文章页、归档页、普通页面 */
@@ -158,7 +159,7 @@ div#archive {
 }
 
 
-/* 4.网站标题部分的增强版 增大字号，蓝色房子 */
+/* 4.网站标题部分的增强版 增大字号，主题色房子 */
 #site-name::before {
     opacity: 0;
     background-color: var(--lyx-theme) !important;
@@ -259,7 +260,7 @@ div#archive {
 /* 文章卡片和侧边栏hover边框 */
 #aside-content .card-widget:hover,
 #recent-posts>.recent-post-item:hover {
-    border: 2px solid #121212;
+    border: 2px solid #eee;
 }
 [data-theme="dark"] #aside-content .card-widget:hover,
 [data-theme="dark"] #recent-posts>.recent-post-item:hover {
