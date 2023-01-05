@@ -1,0 +1,30 @@
+/* 1.页面<i>图标大小 */
+.iconfont {
+    font-family: "iconfont" !important;
+    /* 这里可以自定义图标大小 */
+    font-size: 2em;
+    font-style: normal;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+}
+
+
+
+/* 彩色动态图标 */
+/* 2. 菜单栏图标 */
+svg.menu_icon {
+    width: 1.68em;
+    height: 1.68em;
+    vertical-align: -0.35em;
+    fill: currentColor;
+    overflow: hidden;
+}
+
+/* 3. 社交图标 */
+svg.social_icon {
+    width: 1.3em;
+    height: 1.3em;
+    vertical-align: -0.15em;
+    fill: currentColor;
+    overflow: hidden;
+}
